@@ -1,3 +1,11 @@
+pex_binary(
+    name="django-admin",
+    dependencies=[
+        "3rdparty#Django",
+    ],
+    script="django-admin",
+)
+
 python_sources(
     name="src",
     restartable=True,
