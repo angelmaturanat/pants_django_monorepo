@@ -1,4 +1,24 @@
 # Pants workspace files
-/.pants.*
-/dist/
+/.pants.d/
+/dist
 /.pids
+/.pants.workdir.file_lock*
+
+Local venv for running manage.py etc.
+/.venvs
+
+# Python files
+__pycache__/
+*.pyc
+.venv/
+
+# Editors
+.idea/
+*.iml
+
+# Local databases.
+*.sqlite3
+*.sqlite3-journal
+
+# MacOS attribute files
+.DS_Store
